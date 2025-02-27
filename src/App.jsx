@@ -14,7 +14,7 @@ function App() {
     <>
       <MenuComp/>
       <Routes>
-        <Route path='/slider1' element={<Slider1/>}/>
+        <Route path='/' element={<Slider1/>}/>
         <Route path='/slider2' element={<Slider2/>}/>
         <Route path='/slider3' element={<Slider3/>}/>
         <Route path='/slider4' element={<Slider4/>}/>

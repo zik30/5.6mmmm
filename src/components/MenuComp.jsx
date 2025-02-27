@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const items = [
     {
       label: (
-        <NavLink to={'/slider1'}>Slider 1</NavLink>
+        <NavLink to={'/'}>Slider 1</NavLink>
       ),
       key: 'slider1',
       icon: <CopyFilled />,
